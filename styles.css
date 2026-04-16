@@ -19,10 +19,9 @@
 
 .container {
   display: flex;
-  min-height: 100vh; /*fills the full screen height*/
+  min-height: 100vh; 
   background-image: url(images/FullLogo_NoBuffer.jpg);
   background-size: cover;
-  background-color: center;
 }
 
 
@@ -42,8 +41,8 @@
 
 .full-name, .contact, .passwd {
   display: flex;
-  gap: 10px;                /* Space between first/last name */
-  margin-bottom: 5px;      /* Space between row groups */
+  gap: 10px;                
+  margin-bottom: 5px;      
 }
 
 .first-name, .last-Name, 
